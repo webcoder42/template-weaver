@@ -9,7 +9,7 @@ import {
   Download,
   Save,
   Wand2,
-  MousePointerSquare,
+  MousePointer,
   Square,
   FileImage,
 } from "lucide-react";
@@ -135,7 +135,7 @@ const EditorSection = () => {
           <div className="flex flex-col gap-4">
             {/* Toolbar */}
             <div className="glass flex flex-wrap items-center gap-2 rounded-2xl p-3">
-              <ToolButton icon={<MousePointerSquare />} label="Select" />
+              <ToolButton icon={<MousePointer />} label="Select" />
               <ToolButton icon={<Type />} label="Add Text" />
               <ToolButton icon={<Palette />} label="Color" />
               <ToolButton icon={<Image />} label="Image" />

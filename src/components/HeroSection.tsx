@@ -43,7 +43,7 @@ const HeroSection = () => {
 
           <div className="flex items-center gap-6 pt-4 text-sm text-muted-foreground">
             <span className="flex items-center gap-1.5">
-              <span className="h-2 w-2 rounded-full bg-emerald-500" /> Free to try
+              <span className="h-2 w-2 rounded-full bg-primary" /> Free to try
             </span>
             <span>No signup required</span>
             <span>Export in seconds</span>
